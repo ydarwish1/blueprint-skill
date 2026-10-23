@@ -1,0 +1,8 @@
+{
+  "name": "blueprint",
+  "version": "0.1.0",
+  "description": "Draws a real technical blueprint of any 3D idea first (front, side, top and exploded views, parts list), then writes the expert prompt that has Kimi K3.1 Pro or any strong model build the 3D scene to it.",
+  "author": { "name": "Amel Solutions" },
+  "license": "MIT",
+  "keywords": ["blueprint", "3d", "three.js", "kimi", "kimi-k3.1", "prompt", "skill"]
+}

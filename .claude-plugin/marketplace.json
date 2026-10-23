@@ -1,0 +1,8 @@
+{
+  "name": "amel-blueprint",
+  "owner": { "name": "Amel Solutions" },
+  "metadata": { "description": "Free Claude Code skills from Amel Solutions." },
+  "plugins": [
+    { "name": "blueprint", "source": "./", "description": "Draw the blueprint first, then let the AI build your 3D scene from it." }
+  ]
+}

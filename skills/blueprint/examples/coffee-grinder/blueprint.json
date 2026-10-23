@@ -1,0 +1,26 @@
+{
+  "title": "Burr coffee grinder",
+  "subtitle": "Home electric conical burr grinder, 15 grind settings",
+  "units": "mm",
+  "date": "2026-10-23",
+  "overall": { "w": 144, "h": 390, "d": 200 },
+  "explodeStep": 0.32,
+  "parts": [
+    { "id": "base", "name": "Base", "shape": "box", "size": { "w": 140, "h": 30, "d": 200 }, "position": [0, 15, 0], "material": "die-cast aluminium, matte black", "explode": [0, -1, 0] },
+    { "id": "body", "name": "Body shell", "shape": "cylinder", "axis": "y", "size": { "r": 60, "h": 220 }, "position": [0, 140, -20], "material": "brushed steel", "explode": [0, 0, -1.4] },
+    { "id": "motor", "name": "DC motor", "shape": "cylinder", "axis": "y", "size": { "r": 40, "h": 100 }, "position": [0, 120, -20], "material": "steel can, copper coil", "explode": [1.6, 0, 0] },
+    { "id": "burrs", "name": "Conical steel burrs", "shape": "cone", "axis": "y", "size": { "r1": 30, "r2": 18, "h": 40 }, "position": [0, 220, -20], "material": "hardened steel, polished", "explode": [-1.6, 0, 0] },
+    { "id": "dial", "name": "Grind dial", "shape": "cylinder", "axis": "y", "size": { "r": 64, "h": 18 }, "position": [0, 259, -20], "material": "aluminium, knurled edge", "explode": [0, 0.5, 0] },
+    { "id": "hopper", "name": "Bean hopper", "shape": "cone", "axis": "y", "size": { "r1": 50, "r2": 70, "h": 90 }, "position": [0, 313, -20], "material": "smoked clear plastic", "explode": [0, 1.1, 0] },
+    { "id": "lid", "name": "Hopper lid", "shape": "cylinder", "axis": "y", "size": { "r": 72, "h": 12 }, "position": [0, 364, -20], "material": "smoked clear plastic", "explode": [0, 1.7, 0] },
+    { "id": "knob", "name": "Lid knob", "shape": "sphere", "size": { "r": 10 }, "position": [0, 380, -20], "material": "walnut", "explode": [0, 1.7, 0] },
+    { "id": "spout", "name": "Grounds chute", "shape": "box", "size": { "w": 30, "h": 20, "d": 30 }, "position": [0, 120, 55], "material": "stainless steel", "explode": [0, 0, 0.8] },
+    { "id": "cup", "name": "Grounds cup", "shape": "box", "size": { "w": 90, "h": 70, "d": 70 }, "position": [0, 65, 65], "material": "clear plastic, steel rim", "explode": [0, 0, 1.6] }
+  ],
+  "notes": [
+    "Burrs (part 4) are the hero detail: same grind size every cup.",
+    "Motor sits inside the body shell, under the burrs.",
+    "Dial turns the outer burr ring up or down to change grind size.",
+    "Sizes are typical for a home grinder, not taken from one brand."
+  ]
+}
